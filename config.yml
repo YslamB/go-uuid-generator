@@ -1,0 +1,10 @@
+is_debug: true
+datacenter_id: 1
+machine_id: 1
+listen:
+  host: 127.0.0.1
+  port: :8080
+  grpc: :8000
+log:
+  path: ./logs
+  filename: id-generator.log

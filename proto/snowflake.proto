@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package id_service;
+
+option go_package = "snowflake/internal/proto;proto";
+
+service IDService {
+  rpc Generate(IDRequest) returns (IDResponse);
+  rpc GenerateIDs(IDsRequest) returns (IDsResponse);
+}
+
+message IDRequest {}
+message IDsRequest {
+  int32 count =1;
+}
+
+message IDResponse {
+  int64 id = 1;
+}
+
+message IDsResponse {
+  repeated int64 ids = 1;
+  int64 duration_ms =2;
+}
