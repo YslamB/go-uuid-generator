@@ -4,7 +4,7 @@ A high-performance, distributed 64-bit unique ID generator using the **Twitter S
 
 ---
 
-![Snowflake ID Bit Layout Diagram](./doc/0001.jpg)
+![Snowflake ID Bit Layout Diagram]([./doc/0001.jpg](https://github.com/YslamB/go-uuid-generator/blob/main/doc/0001.png))
 *Figure: Bit layout of the 64-bit Snowflake ID*
 
 ---
