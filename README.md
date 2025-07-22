@@ -2,10 +2,6 @@
 
 A high-performance, distributed 64-bit unique ID generator using the **Twitter Snowflake** algorithm, implemented in **Go** with **Clean Architecture** principles. It provides both **HTTP (Fiber)** and **gRPC** APIs.
 
----
-
-![Snowflake ID Bit Layout Diagram](https://github.com/YslamB/go-uuid-generator/blob/main/doc/0001.png)
-*Figure: Bit layout of the 64-bit Snowflake ID*
 
 ---
 
