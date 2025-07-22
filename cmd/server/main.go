@@ -17,6 +17,11 @@ import (
 )
 
 func main() {
+	var x int = 1 << 62
+	var num int = 2
+
+	var y int = x ^ num
+	fmt.Println("x = ", x, "\n y = ", y)
 	// NOTE: a machine can support a maximum of 4096 new IDs per millisecond.
 	conf := config.Init()
 	gen, err := snowflake.NewGenerator(int64(*conf.DatacenterID), int64(*conf.MachineID))
